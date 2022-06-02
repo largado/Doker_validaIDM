@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: valida-idm-pod
+spec:
+  containers:
+    - name: valida-idm
+      image: avena/valida-idm:0.2
